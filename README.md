@@ -11,7 +11,13 @@ There is a [Curio Knowledge website](https://knowledgebase.curiobioscience.com/o
 - ==Step by Step== !!! by tutorial 
 - Prepare the samplesheet.csv like in the example folder 
 
+
 # Install Pipeline 
+
+![Installation Guide](https://github.com/Center-for-Spatial-OMICs/Curio-Seeker-Pipeline/raw/main/Images/1-Installation.png)
+
+
+![Setup](https://github.com/Center-for-Spatial-OMICs/Curio-Seeker-Pipeline/raw/main/Images/2-Setup.png)
 
 
 # Run Pipeline 
@@ -20,6 +26,12 @@ There is a [Curio Knowledge website](https://knowledgebase.curiobioscience.com/o
 ```
 (star_2.6.1d) yliu08@splpdnb01:/mnt/plummergrp/Yutian/Curio_New/dnb1_mouse_sample71$ nextflow run /mnt/plummergrp/Yutian/Application/curioseeker-v3.0.0/main.nf --input /mnt/plummergrp/Yutian/Curio_New/curioseeker/samplesheet.csv --outdir /mnt/plummergrp/Yutian/Curio_New/dnb1_mouse_sample71/results/ -work-dir /mnt/plummergrp/Yutian/Curio_New/dnb1_mouse_sample71/work/ -resume -profile singularity --igenomes_base /mnt/plummergrp/Yutian/Application/
 ```
+
+### Samplesheet 
+
+![Samplesheet](https://github.com/Center-for-Spatial-OMICs/Curio-Seeker-Pipeline/raw/main/Images/3-SampleSheetExample.png)
+
+[download example](https://github.com/Center-for-Spatial-OMICs/Curio-Seeker-Pipeline/tree/main/Example)
 
 ## Notes on input arguments
 - ––input: (Required) Full path to the sample sheet. 
