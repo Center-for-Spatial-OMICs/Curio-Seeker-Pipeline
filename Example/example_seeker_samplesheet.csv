@@ -1,0 +1,2 @@
+sample,experiment_date,barcode_file,fastq_1,fastq_2,genome
+sample1,2021-04-01,/path/to/A0001_001_BeadBarcodes.txt,/path/to/R1.fastq.gz,/path/to/R2.fastq.gz,GRCm38
